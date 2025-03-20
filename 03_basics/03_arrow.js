@@ -24,11 +24,11 @@ const user = {
 
 // const chai = function () {
 //     let username = "hitesh"
-//     console.log(this.username);
+//     console.log(this.username);    this.username sirf object ke lia use hota hai (this se variable ko acess nahi ker sakteaa function me) 
 // }
 
 const chai =  () => {
-    let username = "hitesh"
+    let username = "hitesh" 
     console.log(this);
 }
 
